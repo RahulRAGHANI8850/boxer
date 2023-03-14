@@ -1,0 +1,522 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* navigation starts here */
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 40px !important;
+    color: #0e86d5 !important;
+}
+
+.navbar-brand:hover {
+    color: #6e6e6e !important;
+}
+
+.navbar-default {
+    padding-top: 10px;
+    background-color: #ffffff;
+    border: none;
+}
+
+.navbar-header button {
+    border: none !important;
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+
+.navbar-header .navbar-toggle:hover {
+    background-color: none !important;
+}
+
+.navbar-header button:hover {
+    box-shadow: 2px 2px 10px #0099ff;
+}
+
+.alive {
+    color: #0e86d5 !important;
+}
+
+.nav a {
+    font-size: 1.4rem;
+    font-weight: 700;
+    transition: all 400ms linear 10ms;
+}
+
+.nav a:hover {
+    color: #0e86d5 !important;
+    box-shadow: 2px 2px 10px #0099ff;
+}
+
+.navbar-right {
+    margin-right: 40px;
+}
+
+/* navigation ends here */
+
+
+/* header starts here */
+.header-wrapper {
+    background-color: #0e86d5;
+    text-align: center;
+    background-image: url(../images/home-bg.jpg);
+    background-position: left left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding: 0px 0px;
+}
+
+.header-visiblity {
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.banner {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.banner-image {
+
+    margin-top: 80px;
+}
+
+.banner img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner p {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+/* header ends */
+
+
+/* blog sec starts here */
+.blog-sec {
+    padding: 70px;
+}
+
+.blog-sec .blogs {
+    padding: 10px;
+    text-align: center;
+}
+
+.blogs span {
+    color: #0e86d5;
+    font: 700;
+    font-size: 7rem;
+}
+
+.blogs h2 {
+    margin: 30px 0px;
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+
+.blogs p {
+    font-size: 1.4rem;
+    font-weight: 100;
+    color: #959595;
+}
+
+/* blogs sec ends here */
+
+/* features sec starts here */
+.feature-sec {
+    padding: 140px 60px;
+}
+
+.feature-sec img {
+    width: 100%;
+}
+
+.feature-sec span {
+    padding: 15px;
+    background-color: #28a7e9;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin: 5px 10px 10px 0px;
+}
+
+.feature-sec h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 0px black;
+}
+
+.feature-sec p {
+    padding: 2px;
+    font-size: 1.4rem;
+    color: #959595;
+}
+
+.bg-grey {
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+/* feartures ends here */
+
+/* pricing-sec starts here */
+.pricing-sec {
+    padding: 10px 30px 50px 30px;
+}
+
+.pricing-sec .pricing-heading h1 {
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 0px black;
+}
+
+.pricing-sec .pricings {
+    padding: 15px;
+    text-align: center;
+    transition: all 600ms linear;
+}
+
+.pricing-sec .pricings:hover {
+    box-shadow: 5px 4px 15px #0099ff;
+    padding: 0px;
+}
+
+
+.pricing .uper-sec h3 {
+    font-weight: bolder;
+}
+
+.pricings .uper-sec {
+    padding: 30px 0px;
+    color: #ffffff;
+    background-color: #28a7e9;
+    box-shadow: 2px 2px 2px #28a7e9;
+
+}
+
+.pricing-sec .lower-sec {
+    background-color: #ffffff;
+    box-shadow: 2px 2px 4px white;
+
+}
+
+.lower-sec h5 {
+    font-weight: lighter;
+    font-size: 1.4rem;
+    padding: 20px 0px;
+    color: #959595;
+}
+
+.lower-sec button {
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #28a7e9;
+    color: #28a7e9;
+    margin: 20px 0px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    transition: all 500ms linear;
+}
+
+.lower-sec button:hover {
+    background-color: #28a7e9;
+    color: #ffffff;
+    box-shadow: 2px 2px 10px #0099ff;
+
+}
+
+.margin-top {
+    margin-top: -30px;
+}
+
+/* pricings-sec ends here */
+
+/* download sec starts here */
+.download-sec {
+    padding: 100px 60px 200px 60px;
+}
+
+.my-download {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.my-download h1 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px black;
+}
+
+.my-download p {
+    font-size: 1.4rem;
+    color: #959595;
+}
+
+.my-download button {
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #28a7e9;
+    color: #28a7e9;
+    margin: 20px 0px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    transition: all 500ms linear;
+}
+
+.my-download button:hover {
+    background-color: #28a7e9;
+    color: #ffffff;
+    box-shadow: 2px 2px 10px #0099ff;
+}
+
+.my-software img {
+    width: 100%;
+}
+
+/* download sec ends here */
+
+
+/* contact us sec strats here */
+.contact-us {
+    background-image: url(../images/contact-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.contact-us .content {
+    padding: 40px;
+    color: #ffffff;
+}
+
+.contact-us .content h1 {
+    font-size: 2.6rem;
+    text-shadow: 1ppx 1px 2px white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.opacity {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 80px 10px 10px 10px;
+    height: 800px;
+}
+
+.contact-us .content p {
+    margin: 30px 0px;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+
+.contact-us .content span {
+    background-color: #28a7e9;
+    border-radius: 50%;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 0px 5px 10px 0px;
+}
+
+.contact-us .content a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.contact-us .contact-form {
+    margin-top: 50px;
+    height: 70vh;
+    width: 100%;
+    padding: 20px;
+}
+
+.contact-form form input {
+    border-radius: 0;
+    height: 50px;
+    margin: 10px 17px 3px 0px;
+    transition: all 2s linear 200ms;
+}
+
+.contact-form form input:hover {
+    border: 2px solid #0099ff;
+    box-shadow: 2px 2px 12px #0099ff;
+    cursor: pointer;
+}
+
+#name,
+#email {
+    width: 200px;
+    height: 50px;
+    display: inline;
+    float: left;
+    margin: 10px 40px 20px 0px;
+}
+
+#subject {
+    width: 86%;
+}
+
+.contact-form #submit-btn {
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #28a7e9;
+    color: #28a7e9;
+    margin: 20px 0px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    transition: all 500ms linear;
+}
+
+.contact-form #submit-btn:hover {
+    background-color: #28a7e9;
+    color: #ffffff;
+}
+
+/* contact sec ends */
+
+/* footer starts here */
+.footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 1.4rem;
+}
+
+/* footer ends here */
+
+/* media query strats here */
+@media(min-width: 1000px) {
+
+    #name,
+    #email {
+        width: 38%;
+    }
+}
+
+@media(max-width: 1000px) {
+    .navbar-brand {
+        margin-left: 0px !important;
+    }
+
+    .margin-top {
+        margin-top: 0px;
+    }
+
+    .pricings {
+        margin-bottom: 40px;
+    }
+
+    .blogs {
+        margin-bottom: 40px;
+        border: 2px solid #28a7e9;
+        transition: all 600ms linear 1ms;
+    }
+
+    .blog-sec .blogs:hover {
+        box-shadow: 2px 2px 10px #0099ff;
+    }
+
+    .blog-sec {
+        padding: 80px;
+    }
+
+    .feature-sec {
+        padding: 50px;
+        margin-bottom: 40px;
+    }
+
+    .feature-sec img,
+    .download-sec img {
+        width: 90%;
+        margin: 10px 0px 20px 10px;
+    }
+
+    .pricing-sec {
+        padding: 40px;
+    }
+
+    .download-sec {
+        padding: 40px;
+    }
+
+    .contact-us .opacity {
+        padding: 20px;
+    }
+
+    .contact-us .opacity .content {
+        padding: 10px 20px;
+    }
+
+    .contact-us .contact-form {
+        margin-top: -20px;
+        padding: 10px;
+    }
+
+    #name,
+    #email {
+        width: 86%;
+    }
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: 10px;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 7px;
+    }
+
+    .banner-image {
+        padding: 20px;
+    }
+}
+
+/* media query ends here */
